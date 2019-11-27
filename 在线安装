@@ -1,0 +1,8 @@
+1. 没有wget命令的话，安装wget命令：
+  ```javascript
+@Override
+protected void onDestroy() {
+    EventBus.getDefault().unregister(this);
+    super.onDestroy();
+}
+```javascript
